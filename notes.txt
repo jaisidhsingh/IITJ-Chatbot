@@ -1,0 +1,18 @@
+first of all we have imported the libraries that we need for our data.
+to use these libraries we had to read the documentation and the source code.
+
+we now use the natural language toolkit nltk to import the functions of
+tokenizing and stemming.
+
+we also define some utility methods to make it easier to preprocess our data.
+
+as of now, we have globally or loosely loaded in our data into a numpy array
+after preprocessing it.
+
+our plan is to write a custom class for the dataset, and send it into a data
+loader which uses multiple workers and threads to load the data into iterable
+batches faster, and also set a custom batch size and transform.
+
+we have split the patterns into tensors and the tags into classes as can be
+seen in X_train, and y_train.
+

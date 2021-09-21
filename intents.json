@@ -1,0 +1,158 @@
+{
+   "intents": [
+        {
+           "tag": "intitute website", 
+           "pattens": ["provide iitj website", "give iitj website link", "give college website link"], 
+           "responses": ["iitj.ac.in"], 
+           "context_set": ""
+        },
+
+        {
+           "tag": "fee structure",
+           "patterns": ["provide fee structure",  "fee structure", "give fees information"], 
+           "responses": [" iitj.ac.in/academics/index.php?id=fee"],
+            "context_set": ""
+        },
+
+        {
+            "tag": "calendar", 
+            "patterns": ["provide academic calendar", "give academic calendar link", "give calendar"],
+            "responses": ["iitj.ac.in/academics/index.php?id=academic_calendar"],
+            "context_set": ""
+        },
+      
+        {
+           "tag": "program details", 
+           "pattens": ["give the details of programs offered", "program details"],
+           "responses":["iitj.ac.in/academics/index.php?id=programs"],
+           "context_set": ""
+        },
+
+        {
+           "tag": "curriculum", 
+           "patterns": ["provide the link for curriculum", "give curriculum", "what is the curriculum?"],
+           "responses": ["iitj.ac.in/academics/index.php?id=curriculum&&dep=from_2019"],
+           "context_set": ""
+        },
+
+        {
+           "tag": "faculty members",
+           "patterns": ["give the faculty link", "provide the list of faculty in iitj", "give faculty list"],
+           "responses": [""],
+           "context_set": ""
+        },
+
+        {
+           "tag": "scholars in residence",
+           "patterns": ["provide the list of scholars in residence", "who are the scholars in residence", "gie details of the residing scholars"],
+           "responses": ["iitj.ac.in/faculty/index.php?id=scholars_in_residence"],
+           "context_set": ""
+        },
+
+        {
+           "tag": "visiting faculty",
+           "patterns": ["give details of the visiting faculty", "provide the list of visiting faculty", "visiting faculty"],
+           "responses": ["iitj.ac.in/faculty/index.php?id=visiting_faculty"],
+           "context_set": ""
+        },
+
+        {
+           "tag": "adjunct faculty",
+           "patterns": ["provide the details of adjunct faculty", "give list of adjunct faculty", "adjunct faculty"],
+           "responses": ["iitj.ac.in/faculty/index.php?id=adjunct_faculty"],
+           "context_set": ""
+        },
+
+        {
+           "tag": "financial aid",
+           "patterns": ["details about financial aid", "provide details about financial aid", "financial aid scheme"],
+           "responses":["iitj.ac.in/students/index.php?id=scholarships"],
+           "context_set": ""
+        },
+
+        {
+           "tag": "teaching assistants",
+           "patterns":["give the list of teaching assistants", "provide teaching assistant details", "who are the teaching assistants?"],
+           "responses": ["iitj.ac.in/students/index.php?id=ta_ship"],
+           "context_set": ""
+        },
+
+        {
+           "tag": "library",
+           "patterns": ["give the link to the library", "library link", "library rsource link"],
+           "responses": ["https/library.iitj.ac.in/"],
+           "context_set": ""
+        },
+
+        {
+           "tag": "aryabhatta new",
+           "patterns": ["give aryabhatta link"],
+           "responses": ["intra.iitj.ac.in:8080/Aryabhatta_New/"],
+           "context_set": ""
+        },
+
+       {
+           "tag": "director",
+           "patterns": ["Who is the director of IITJ", "IITJ director" , "director's name" ],
+           "responses": ["Prof. Santanu Chaudhury"],
+           "context_set": ""
+       },
+
+       {
+           "tag": "associate dean",
+           "patterns": ["associate dean list", "who all are the associate deans of iitj" , "IITJ Associate deans" ],
+           "responses": [" a) Suril Shah Associate Dean (Academics-UG Programs) Coordinator IDRP,b) Somnath Ghosh Associate Dean (Academics-PG Programs),c) Shree Prakash Tiwari Associate Dean (R&D),d) Samanwita Pal Associate Dean (Students),e) Kaushal A. Desai Associate Dean (International Relations & Outreach)f) Deepakkumar M. Fulwani Associate Dean (Planning & Resources Generation) "],
+           "context_set": ""
+       },
+
+       {
+           "tag": "departments",
+           "patterns": ["available depatments in IITJ", "Department list" , "all the departments available" ],
+           "responses": ["Bioscience and Bioengineering , Chemical Engineering , Chemistry , Civil and infrastructure Engineering , Computer Science & Engineering , Electrical Engineering , Humanities & Social Sciences , Mathematics , Mechanical Engineering , Metallurgical & Materials Engineering , Physics"],
+           "context_set": ""
+       },
+
+       {
+           "tag": "architect",
+           "patterns": ["Who is the architect of the building", "architect eho designed IITJ's campus" , "architect's name" ],
+           "responses": [" Sanjay Prakash"],
+           "context_set": ""
+       },
+
+		{
+         "tag": "chairman",
+         "patterns": ["Who is the chairman,board of governor of IITJ", "IITJ chairman" , "chairman's name","Who is the chairman of IITJ" ],
+         "responses": ["Dr. R Chidambaram"],
+         "context_set": ""
+      },
+
+      {
+         "tag": "Dean",
+         "patterns": ["Who is the dean of IITJ", "IITJ dean" , "dean's name"],
+         "responses": ["Surajit Ghosh"],
+         "context_set": ""
+      },
+
+      {
+         "tag": "Deputy Director",
+         "patterns": ["Who is the deputy director of IITJ", "IITJ deputy director" , "deputy director's name"],
+         "responses": ["Prof. Sampat Raj Vadera"],
+         "context_set": ""
+      },
+
+      {
+         "tag": "Dean Management",
+         "patterns": ["Who is the Dean of School of Management and Entrepreneurship of IITJ", "Dean of SME's name","Who is the dean of SME of IITJ","IITJ dean of SME"],
+         "responses": ["Dr. Srikant Datar"],
+         "context_set": ""
+      },
+
+      {
+         "tag": "Address",
+         "patterns": ["What is the address of IITJ", "address of IITJ","IITJ address", "Where is IITJ located"],
+         "responses": ["NH 65 Nagpur Road Karwar 342037, Jodhpur District"],
+         "context_set": ""
+      }
+
+   ]
+}
