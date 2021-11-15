@@ -10,6 +10,8 @@ A web-application to answer queries related to IIT Jodhpur.
 
 >Numpy
 
+>nltk
+
 to install the libraries required, run:
 ```
 pip install <the-dependancies>
