@@ -2,7 +2,7 @@
    "intents": [
         {
            "tag": "intitute website", 
-           "pattens": ["provide iitj website", "give iitj website link", "give college website link"], 
+           "patterns": ["provide iitj website", "give iitj website link", "give college website link"], 
            "responses": ["iitj.ac.in"], 
            "context_set": ""
         },
@@ -23,7 +23,7 @@
       
         {
            "tag": "program details", 
-           "pattens": ["give the details of programs offered", "program details"],
+           "patterns": ["give the details of programs offered", "program details"],
            "responses":["iitj.ac.in/academics/index.php?id=programs"],
            "context_set": ""
         },
